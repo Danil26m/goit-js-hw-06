@@ -22,7 +22,7 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-li{
+.item{
   list-style: none;
   width: 70px;
   height: 70px;
