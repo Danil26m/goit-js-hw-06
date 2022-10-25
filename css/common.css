@@ -22,10 +22,12 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-.item{
+li{
   list-style: none;
-  width: 70px;
-  height: 70px;
+}
+.img-size{
+  width: 100px;
+  height: 100px;
 }
 img{
   width: 100%;

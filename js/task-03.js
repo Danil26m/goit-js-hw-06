@@ -13,6 +13,6 @@ const images = [
   },
 ];
 const newGallery = document.querySelector(".gallery");
-const addPages = images.map(({url, alt}) => `<li><img src="${url}" alt="${alt}"></li>`).join("");
+const addPages = images.map(({url, alt}) => `<li class="img-size"><img src="${url}" alt="${alt}"></li>`).join("");
 
 newGallery.insertAdjacentHTML("afterbegin",addPages);
